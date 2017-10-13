@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="fpuna.py.com.appolympos.activities.NoSaleActivity"
+    tools:showIn="@layout/activity_no_sale">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="@string/prompt_client">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/no_sale_client_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/ic_account_box_black_24dp"
+                android:drawablePadding="@dimen/default_margin"
+                android:drawableStart="@mipmap/ic_account_box_black_24dp"
+                android:ems="10"
+                android:enabled="false"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@color/primaryText"
+                android:textStyle="bold" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="@string/prompt_ruc">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/no_sale_client_ruc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/ic_chrome_reader_mode_black_24dp"
+                android:drawablePadding="@dimen/default_margin"
+                android:drawableStart="@mipmap/ic_chrome_reader_mode_black_24dp"
+                android:ems="10"
+                android:enabled="false"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@color/primaryText"
+                android:textStyle="bold" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:paddingLeft="@dimen/label_spinner_margin"
+            android:textColor="#80000000"
+            android:text="@string/label_choose"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content_description"
+                android:src="@mipmap/ic_remove_shopping_cart_black_24dp" />
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/no_sale_spinner_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <android.support.v7.widget.ButtonBarLayout
+        style="@style/MyButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="end">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/no_sale_button_cancel"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_cancel" />
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/no_sale_button_ok"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_accept" />
+
+    </android.support.v7.widget.ButtonBarLayout>
+
+
+</RelativeLayout>

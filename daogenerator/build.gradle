@@ -1,0 +1,14 @@
+apply plugin: 'application'
+apply plugin: 'java'
+
+mainClassName = "fpuna.py.com.appolympos.MyDaoGenerator"
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'org.freemarker:freemarker:2.3.23'
+    compile 'de.greenrobot:greendao-generator:2.0.0'
+
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

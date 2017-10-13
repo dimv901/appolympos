@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/product_quantity_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/product_quantity_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@mipmap/ic_format_list_numbered_white_24dp"
+            android:drawablePadding="@dimen/default_margin"
+            android:gravity="center"
+            android:padding="@dimen/fab_margin"
+            android:text="@string/prompt_add_quantity"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/icons"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/product_quantity_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_quantity_header"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <ImageView
+            android:id="@+id/product_quantity_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/default_margin"
+            app:srcCompat="@drawable/ic_camera_alt_black_156dp" />
+
+        <TextView
+            android:id="@+id/product_quantity_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_margin" />
+
+        <TextView
+            android:id="@+id/product_quantity_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_margin" />
+
+        <TextView
+            android:id="@+id/product_quantity_stock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_margin" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:padding="@dimen/default_margin"
+            android:hint="@string/prompt_quantity">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/product_input_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits=".1234567890"
+                android:drawableLeft="@mipmap/ic_format_list_numbered_black_24dp"
+                android:drawablePadding="@dimen/default_margin"
+                android:drawableStart="@mipmap/ic_format_list_numbered_black_24dp"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:maxLines="1" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

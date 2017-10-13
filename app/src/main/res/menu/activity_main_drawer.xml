@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+    -->
+
+    <item android:title="@string/label_choose">
+        <menu>
+            <item
+                android:id="@+id/nav_sync"
+                android:icon="@drawable/ic_menu_sync"
+                android:title="@string/title_activity_sync" />
+<!--
+            <item
+                android:id="@+id/nav_maps"
+                android:icon="@drawable/ic_menu_map"
+                android:title="@string/title_activity_my_maps" />
+-->
+            <item
+                android:id="@+id/nav_reset"
+                android:icon="@drawable/ic_menu_reset_passwod"
+                android:title="@string/label_reset" />
+
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_exit"
+                android:title="@string/label_exit" />
+        </menu>
+
+    </item>
+
+</menu>

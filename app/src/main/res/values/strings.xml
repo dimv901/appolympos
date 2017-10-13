@@ -1,0 +1,222 @@
+<resources>
+    <string name="app_name">Olympos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_user">Usuario</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_ruc">R.U.C.</string>
+    <string name="prompt_client">Cliente</string>
+    <string name="prompt_amount">Monto</string>
+    <string name="prompt_search">Buscar...</string>
+    <string name="prompt_search_product">Buscar Producto</string>
+    <string name="prompt_add_quantity">Agregar Cantidad</string>
+    <string name="prompt_quantity">Cantidad</string>
+    <string name="prompt_password_1">Ingresa el nuevo PIN</string>
+    <string name="prompt_password_2">Confirma tu nuevo PIN</string>
+    <string name="prompt_address">Direccion</string>
+
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_login">Ingresar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_empty_field">Error, el campo es requerido</string>
+    <string name="error_empty_selection_sync">Debe agregar un item a la sincronizacion.</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">Error, el campo es requerido</string>
+    <string name="error_invalid_quantity">Error, cantidad inválida</string>
+    <string name="error_get_location">Error, no se puede obtener la localización</string>
+    <string name="error_empty_product_list">Error, debes agregar productos a la lista.</string>
+    <string name="error_no_info_salesmen">Sin Informacion del vendedor</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="error_client_id_not_found">Error, no se encontro el id de cliente</string>
+    <string name="error_camera_not_available">Error, la camara no esta disponible</string>
+    <string name="error_create_file">Error, no se pudo crear el archivo</string>
+    <string name="error_capture_picture">Error, no se pudo capturar la imagen</string>
+    <string name="error_take_picture">Error, debes capturar la imagen del local</string>
+    <string name="error_image_conversion">Error, no se pudo convertir la imagen</string>
+    <string name="error_transaction_delete">No puedes elimnar una transacion enviada.</string>
+    <string name="error_transaction_send_delete">Error, no se puede eliminar una transaccion enviada.</string>
+    <string name="error_pin_not_match">Error, el PIN no coincide.</string>
+    <string name="error_session_end">La sesion de usuario a terminado.</string>
+
+    <string name="label_activate">Activar</string>
+    <string name="label_close">Cerrar</string>
+    <string name="label_cancel">Cancelar</string>
+    <string name="label_accept">Aceptar</string>
+    <string name="label_choose">Elegir Opcion</string>
+    <string name="content_description">descripcion</string>
+    <string name="label_exit">Salir</string>
+    <string name="label_reset">Cambiar PIN</string>
+    <string name="label_commerce_picture">CAPUTRAR LA VISTA DEL COMERCIO</string>
+    <string name="label_you">TU UBICACION</string>
+    <string name="label_choose_option">Elegir Opcion</string>
+    <string name="label_make_call">Realizar Llamada</string>
+
+    <string name="label_transaction_date">Fecha:</string>
+    <string name="label_transaction_status">Estado:</string>
+    <string name="label_transaction_message">Mensaje:</string>
+    <string name="label_transaction_client">Cliente:</string>
+    <string name="label_transaction_type">Tipo:</string>
+    <string name="label_transaction_amount">Monto:</string>
+    <string name="label_transaction_date_send">Fecha Envio:</string>
+    <string name="label_transaction_orden">PEDIDO</string>
+    <string name="transaction_type_no_sale">NO VENTA</string>
+    <string name="label_information">Informacion</string>
+    <string name="label_pending">PENDIENTE</string>
+    <string name="label_sending">ENVIADO</string>
+    <string name="label_error">ERROR</string>
+    <string name="label_total_order">TOTAL Gs.:</string>
+    <string name="label_order_ruc">R.U.C.:</string>
+    <string name="label_order_cliente">CLIENTE:</string>
+    <string name="label_order_productos">LISTA DE PRODUCTOS</string>
+    <string name="label_search_product">Buscar Producto...</string>
+
+    <string name="message_delete_transaction">Transaccion eliminada.</string>
+    <string name="message_delete_product">Producto eliminado.</string>
+
+    <string name="volley_authentication_error">Ocurrio un error de autenticacion</string>
+    <string name="volley_default_error">Ocurrio un error inesperado, por favor reintenta.</string>
+    <string name="volley_network_error">Conexion fallida con el Servidor, por favor reintenta.</string>
+    <string name="volley_no_connection_error">Sin conexion a Internet, por favor revisa tu conexion.</string>
+    <string name="volley_parse_error">Ocurrio un error al parsear la respuesta.</string>
+    <string name="volley_server_error">Ocurrio un error en el Servidor, por favor reintenta.</string>
+    <string name="volley_time_out_error">Tiempo de espera agotado para la conexion.</string>
+
+
+    <string name="dialog_progess_message">Procesando la peticion, por favor espere.</string>
+    <string name="dialog_progress_title">Trabajando</string>
+
+
+    <string name="dialog_gps_title">GPS</string>
+    <string name="dialog_gps_message">La aplicación necesita usar el GPS, por favor activelo.</string>
+
+    <string name="dialog_connectivity_title">Internet</string>
+    <string name="dialog_connectivity_message">La aplicación necesita acceso a Internet, por favor activelo.</string>
+    <string name="dialog_info_title">Información</string>
+    <string name="dialog_confirm_title">Confirmación</string>
+    <string name="dialog_delete_message">¿Desea eliminar la transacción?</string>
+    <string name="dialog_delete_product_message">¿Desea eliminar el producto de la lista?</string>
+    <string name="dialog_exit_message">¿Desea finalizar la sesion?</string>
+    <string name="dialog_exit_order">¿Desea cancelar el pedido?</string>
+    <string name="dialog_client_already_locate">Este cliente ya ha sido localizado. ¿Desea actualizar su ubicación?</string>
+    <string name="dialog_client_already_picture">Este cliente ya cuenta con imagen. ¿Desea actualizar su imagen?</string>
+
+
+    <string name="title_activity_no_sale">No Compra</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_sync">Sincronizar Datos</string>
+    <string name="title_activity_main">Menú Principal</string>
+    <string name="title_activity_take_order">Pedidos</string>
+    <string name="title_activity_locate">Localizar</string>
+
+
+    <string name="sync_empty">No hay datos para sincronizar</string>
+    <string name="sync_error">Error de sincronización</string>
+    <string name="sync_in_progress">Sincronización en progreso...</string>
+
+
+    <string name="sync_vendedor">Sincronizar Datos del Vendedor</string>
+    <string name="sync_vendedor_notify_progress">Sincronizando Datos del Vendedor</string>
+    <string name="sync_vendedor_notify_end">Sincronización de Datos del Vendedor Finalizada</string>
+    <string name="sync_vendedor_incomplete">Sincronización de Datos del Vendedor Incompleta</string>
+    <string name="sync_vendedor_notify">Datos del Vendedor</string>
+    <string name="sync_vendedor_title">Datos del Vendedor</string>
+    <string name="sync_vendedor_failed">Sincronización de Datos del Vendedor Fallida</string>
+
+    <string name="sync_clientes">Sincronizar Clientes</string>
+    <string name="sync_clientes_notify_progress">Sincronizando Clientes</string>
+    <string name="sync_clientes_notify_end">Sincronización de Clientes Finalizada</string>
+    <string name="sync_clientes_incomplete">Sincronización de Clientes Incompleta</string>
+    <string name="sync_clientes_notify">Clientes</string>
+    <string name="sync_clientes_title">Clientes</string>
+    <string name="sync_clientes_failed">Sincronización de Clientes Fallida</string>
+
+    <string name="sync_productos">Sincronizar Productos</string>
+    <string name="sync_productos_notify_progress">Sincronizando Productos</string>
+    <string name="sync_productos_notify_end">Sincronización de Productos Finalizada</string>
+    <string name="sync_productos_incomplete">Sincronización de Productos Incompleta</string>
+    <string name="sync_productos_notify">Productos</string>
+    <string name="sync_productos_title">Productos</string>
+    <string name="sync_productos_failed">Sincronización de Productos Fallida</string>
+
+    <string name="sync_no_compra">Sincronizar Motivos No Compra</string>
+    <string name="sync_no_compra_notify_progress">Sincronizando Motivos No Compra</string>
+    <string name="sync_no_compra_notify_end">Sincronización de Motivos No Compra Finalizada</string>
+    <string name="sync_no_compra_incomplete">Sincronización de Motivos No Compra Incompleta</string>
+    <string name="sync_no_compra_notify">Motivos No Compra</string>
+    <string name="sync_no_compra_title">Motivos No Compra</string>
+    <string name="sync_no_compra_failed">Sincronización de Motivos No Compra Fallida</string>
+
+    <string name="sync_departamento">Sincronizar Departamentos</string>
+    <string name="sync_departamento_notify_progress">Sincronizando Departamentos</string>
+    <string name="sync_departamento_notify_end">Sincronización de Departamentos</string>
+    <string name="sync_departamento_incomplete">Sincronización de Departamentos</string>
+    <string name="sync_departamento_notify">Departamentos</string>
+    <string name="sync_departamento_title">Departamentos</string>
+    <string name="sync_departamento_failed">Sincronización de Departamentos</string>
+
+    <string name="sync_ciudad">Sincronizar Ciudades</string>
+    <string name="sync_ciudad_notify_progress">Sincronizando Ciudades</string>
+    <string name="sync_ciudad_notify_end">Sincronización de Ciudades</string>
+    <string name="sync_ciudad_incomplete">Sincronización de Ciudades</string>
+    <string name="sync_ciudad_notify">Ciudades</string>
+    <string name="sync_ciudad_title">Ciudades</string>
+    <string name="sync_ciudad_failed">Sincronización de Ciudades</string>
+
+    <string name="sync_circuito">Sincronizar Circuitos</string>
+    <string name="sync_circuito_notify_progress">Sincronizando Circuitos</string>
+    <string name="sync_circuito_notify_end">Sincronización de Circuitos</string>
+    <string name="sync_circuito_incomplete">Sincronización de Circuitos</string>
+    <string name="sync_circuito_notify">Circuitos</string>
+    <string name="sync_circuito_title">Circuitos</string>
+    <string name="sync_circuito_failed">Sincronización de Circuitos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_location">Ubicacion</string>
+    <string name="title_activity_picture">Capturar Imagen</string>
+    <string name="title_activity_no_compra">NoCompraActivity</string>
+    <string name="title_activity_change_password">Cambio de PIN</string>
+
+    <!-- Transaction string -->
+    <string name="message_pending_transaction">Envio Pendiente</string>
+    <string name="error_save_transaction">Error al guardar Operación</string>
+    <string name="label_retry">Reintentar</string>
+    <string name="label_send_queue">Enviar a cola</string>
+    <string name="dialog_success_title">Operación Exitosa</string>
+    <string name="error_parsing_json">Error al parsear JSON</string>
+    <string name="dialog_error_title">Error</string>
+    <string name="dialog_confirmation_title">Confirmacion</string>
+    <string name="dialog_confirmation_message">¿Desea continuar con la transaccion?</string>
+
+    <string name="transaction_send_queue">Operación encolada</string>
+    <string-array name="transactions_options">
+        <item>INFORMACION</item>
+        <item>ENVIAR</item>
+        <item>BORRAR</item>
+    </string-array>
+
+    <string name="transaction_info">INFORMACION</string>
+    <string name="transaction_send">ENVIAR</string>
+    <string name="transaction_delete">ELIMINAR</string>
+    <!-- No Sale Activity string -->
+    <string name="error_need_sync_reasons">Debes sincronizar motivos de No Compra</string>
+    <string name="error_need_sync_salesman">Debes sincronizar Datos de Vendedor</string>
+    <string name="error_need_sync_products">Debes sincronizar Productos</string>
+    <string name="error_need_selected_no_sale_reason">Debes seleccionar un Motivo de No Compra</string>
+    <string name="error_not_user_data_value">No se encontraron datos del usuario</string>
+    <string name="error_not_salesman_data">No se encontraron datos del vendedor</string>
+    <string name="error_already_send">Ya has enviado esta transaccion.</string>
+    <string name="error_no_connection">Sin conexión, guardando transacción.</string>
+    <string name="label_sending_transaction">Enviando Transaccion...</string>
+    <string name="title_activity_my_maps">Mi Mapa</string>
+
+</resources>

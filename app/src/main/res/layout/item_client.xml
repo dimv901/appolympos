@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/default_margin"
+    android:paddingLeft="@dimen/default_margin"
+    android:paddingTop="@dimen/default_margin">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/default_margin"
+        android:gravity="center"
+        card_view:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/item_client_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/default_margin"
+                android:paddingStart="@dimen/default_margin"
+                android:paddingTop="@dimen/default_margin"
+                android:text="TextView"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_client_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/default_margin"
+                android:paddingStart="@dimen/default_margin"
+                android:paddingTop="@dimen/default_margin"
+                android:text="TextView"
+                android:textColor="@color/colorPrimary" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/item_client_ruc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:paddingLeft="@dimen/default_margin"
+                    android:paddingStart="@dimen/default_margin"
+                    android:text="TextView"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/item_client_hora_visita"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="right"
+                    android:paddingEnd="@dimen/default_margin"
+                    android:paddingRight="@dimen/default_margin"
+                    android:text="TextView"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/item_client_image"
+                android:layout_width="156dp"
+                android:layout_height="156dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/default_margin"
+                app:srcCompat="@drawable/ic_account_box_black_156dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/item_client_info"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_margin="@dimen/small_margin"
+                    android:clickable="true"
+                    app:fabSize="mini"
+                    app:srcCompat="@mipmap/ic_details_white_24dp" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/item_client_place"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_margin="@dimen/small_margin"
+                    android:clickable="true"
+                    app:fabSize="mini"
+                    app:srcCompat="@mipmap/ic_place_white_24dp" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/item_client_locate"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_margin="@dimen/small_margin"
+                    android:clickable="true"
+                    app:fabSize="mini"
+                    app:srcCompat="@mipmap/ic_gps_fixed_white_24dp" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/item_client_call"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_margin="@dimen/small_margin"
+                    android:clickable="true"
+                    app:fabSize="mini"
+                    app:srcCompat="@mipmap/ic_phone_white_24dp" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/item_client_shot"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_margin="@dimen/small_margin"
+                    android:clickable="true"
+                    app:fabSize="mini"
+                    app:srcCompat="@mipmap/ic_photo_camera_white_24dp" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/item_client_action_no_sale"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_margin="@dimen/small_margin"
+                    android:clickable="true"
+                    app:fabSize="mini"
+                    app:srcCompat="@mipmap/ic_remove_shopping_cart_white_24dp" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/item_client_action_sale"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_margin="@dimen/small_margin"
+                    android:clickable="true"
+                    app:fabSize="mini"
+                    app:srcCompat="@mipmap/ic_shopping_cart_white_24dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/ic_menu_map"
+            android:gravity="center" />
+    </item>
+    <item android:top="10dp" android:left="10dp">
+        <bitmap android:src="@drawable/ic_menu_reset_passwod"
+            android:gravity="center" />
+    </item>
+    <item android:top="20dp" android:left="20dp">
+        <bitmap android:src="@drawable/ic_menu_exit"
+            android:gravity="center" />
+    </item>
+
+
+</layer-list>

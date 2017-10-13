@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="fpuna.py.com.appolympos.activities.LoginActivity"
+    tools:showIn="@layout/activity_login">
+
+    <LinearLayout
+        android:id="@+id/loginForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_vertical_margin">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/large_margin"
+            android:background="@drawable/round_linear_layout"
+            android:elevation="4dp"
+            android:padding="@dimen/large_margin"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:src="@mipmap/ic_logo" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/large_margin"
+            android:gravity="center"
+            android:padding="@dimen/default_margin"
+            android:text="@string/app_name"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/inputUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:background="@drawable/edit_text_drawable_icon_bg"
+            android:drawablePadding="@dimen/edit_text_drawable_padding"
+            android:drawableStart="@mipmap/ic_face_white_24dp"
+            android:ems="10"
+            android:hint="@string/prompt_user"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingBottom="@dimen/edit_text_padding"
+            android:paddingLeft="@dimen/edit_text_left_drawable_padding"
+            android:paddingRight="@dimen/edit_text_padding"
+            android:paddingTop="@dimen/edit_text_padding" />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/inputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:background="@drawable/edit_text_drawable_icon_bg"
+            android:drawablePadding="@dimen/edit_text_drawable_padding"
+            android:drawableStart="@mipmap/ic_lock_white_24dp"
+            android:ems="10"
+            android:hint="@string/prompt_password"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:paddingBottom="@dimen/edit_text_padding"
+            android:paddingLeft="@dimen/edit_text_left_drawable_padding"
+            android:paddingRight="@dimen/edit_text_padding"
+            android:paddingTop="@dimen/edit_text_padding" />
+
+
+        <Button
+            android:id="@+id/buttonLogin"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/action_login"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
